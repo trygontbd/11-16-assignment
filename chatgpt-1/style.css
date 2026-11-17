@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  background-color: lightgreen;
+  margin-top: 1em;
+  padding: 1rem;
+  clear: left;
+}
+
+#nav_menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+#nav_menu ul li a {
+  text-align: center;
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-right: 2px solid white;
+}
+#nav_menu ul li a.lastitem {
+  border-right: none;
+}
+#nav_menu ul li a.current {
+  color: yellow;
+}
+
+ul.square{
+  list-style-type: square;
+}
